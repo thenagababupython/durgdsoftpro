@@ -1,0 +1,27 @@
+{% load  staticfiles %}
+<html>
+<head>
+    <title>Durga Soft</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li class="menu_item"><a href="/home/">Home</a></li>
+        <li class="menu_item"><a href="/services/">Services</a></li>
+        <li class="menu_item"><a href="/contact/">Contact</a></li>
+        <li class="menu_item"><a href="/gallery/">Gallery</a></li>
+        <li class="menu_item"><a href="/feedback/">Feedback</a></li>
+    </ul>
+</nav>
+<br>
+<h1 style="text-align: center; color: red; ">Welocome To Durgasoft</h1>
+{% block content %}
+
+{% endblock %}
+
+<footer>
+    <h5 id="footerh1">& copyrights by NagaBabu </h5>
+</footer>
+</body>
+</html>
